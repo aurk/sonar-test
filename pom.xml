@@ -39,7 +39,7 @@
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.10.0.2594</version> <!-- Use the version you need -->
                 <configuration>
-                    <sonar.host.url>http://localhost:9000</sonar.host.url>
+                    <sonar.host.url>https://42cd-39-34-179-41.ngrok-free.app</sonar.host.url>
                     <!-- Other SonarQube configurations -->
                 </configuration>
             </plugin>
