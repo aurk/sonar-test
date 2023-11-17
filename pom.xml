@@ -360,21 +360,21 @@
     </dependencyManagement>
 
     <!-- jar -->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-             <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.10.0.2594</version> <!-- Use the version you need -->
-                <configuration>
-                    <sonar.host.url>https://42cd-39-34-179-41.ngrok-free.app</sonar.host.url>
-                    <!-- Other SonarQube configurations -->
-                </configuration>
-            </plugin>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--             <plugin>-->
+<!--                <groupId>org.sonarsource.scanner.maven</groupId>-->
+<!--                <artifactId>sonar-maven-plugin</artifactId>-->
+<!--                <version>3.10.0.2594</version> &lt;!&ndash; Use the version you need &ndash;&gt;-->
+<!--                <configuration>-->
+<!--                    <sonar.host.url>https://42cd-39-34-179-41.ngrok-free.app</sonar.host.url>-->
+<!--                    &lt;!&ndash; Other SonarQube configurations &ndash;&gt;-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
