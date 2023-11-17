@@ -360,12 +360,12 @@
     </dependencyManagement>
 
     <!-- jar -->
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--            </plugin>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
 <!--             <plugin>-->
 <!--                <groupId>org.sonarsource.scanner.maven</groupId>-->
 <!--                <artifactId>sonar-maven-plugin</artifactId>-->
