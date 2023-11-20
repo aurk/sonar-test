@@ -375,8 +375,8 @@
                 <version>8.0.2</version>
                 <configuration>
                     <format>ALL</format>
-<!--                    <reportOutputDirectory>src/main/resources/reports</reportOutputDirectory>-->
-<!--                    <outputDirectory>src/main/resources/reports</outputDirectory>-->
+                    <reportOutputDirectory>src/main/resources/reports</reportOutputDirectory>
+                    <outputDirectory>src/main/resources/reports</outputDirectory>
                 </configuration>
             </plugin>
 <!--             <plugin>-->
